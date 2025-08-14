@@ -37,6 +37,17 @@
     ```
     `.env` 파일의 `DB_` 설정과 `APP_KEY`를 자신의 환경에 맞게 수정합니다.
 
+
+2.  **테이블 생성**
+    ```bash
+    php artisan migrate --path=/database/migrations/2025_08_14_030054_create_posts_table.php
+    php artisan migrate --path=/database/migrations/2025_08_14_030054_create_comments_table.php
+    ```
+
+2.  **더미 데이터 생성**
+    ```bash
+    php artisan migrate --seed
+    ```
 ### 실행
 
 ```bash
