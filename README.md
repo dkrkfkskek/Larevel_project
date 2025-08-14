@@ -44,7 +44,13 @@
     php artisan migrate --path=/database/migrations/2025_08_14_030054_create_comments_table.php
     ```
 
-2.  **더미 데이터 생성**
+
+3. **더미 데이터 생성**
+    ```bash
+    laravel_project.postman_collection.json 파일 import 
+    ```
+
+2.  **Postman**
     ```bash
     php artisan migrate --seed
     ```
